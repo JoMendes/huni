@@ -1,0 +1,31 @@
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	margin: 0px;
+}
+
+footer .pre-footer {
+	background-color: pink;
+	margin-bottom: 0;
+}
+
+footer .pre-footer figure {
+	margin: 0;
+}
+
+footer .pre-footer h3 {
+	margin: 0;
+}
+
+footer .post-footer {
+	background-color: #1A2530;
+	color: #FFFFFF;
+}
+
+footer .post-footer p {
+	color: #f7f7f8;
+	text-align: center;
+	margin: 0;
+	padding: 45px 0 45px 0;
+}
+
+footer .post-footer span {color: #C62650;}
