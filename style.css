@@ -9,6 +9,105 @@ body a {
 	text-decoration: none;
 }
 
+header {
+	color: #ffffff;
+	overflow: hidden;
+	background: #bf0436;
+}
+
+header.index {
+	background: linear-gradient(45deg, #4096ee 0%,#8c1b39 0%,#c62650 100%);
+}
+
+header .container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 45px 0 55px 0;
+	overflow: hidden;
+}
+
+header figure.logo {
+	float: left;
+	margin: 16px 15px 0 0;
+}
+
+header h1 {
+	font-size: 1.750em;
+	font-weight: lighter;
+}
+
+header h1.logo-text {
+	float: left;
+	margin-right: 230px;
+}
+
+header nav ul li {
+	float: left;
+	display: inline-block;
+	list-style: none;
+	margin: 0 40px 0 0;
+	padding: 0;
+	font-weight: lighter;
+}
+
+header .menu ul li .header-contact {margin-right: 60px;}
+
+header .header-btn-shop {
+	float: left;
+	width: 105px;
+	border-color: #ffffff;
+	border: solid;
+	border-width: 1px;
+	border-radius: 27px;
+	margin: 0 15px 0 0;
+	text-align: center;
+}
+
+header .header-btn-login {
+	float: left;
+	background: #ffffff;
+	width: 105px;
+	border-radius: 27px;
+	margin: 0 auto;
+	color: #c62650;
+	text-align: center;
+}
+
+header.index h1.slogan {
+	margin: 0;
+	width: 360px;
+	margin: 250px 0 60px 0;
+	font-weight: bolder;
+	font-size: 2.250em;
+	line-height: 60px;
+}
+
+header .header-btn-started {
+	width: 200px;
+	border-color: #ffffff;
+	border: solid;
+	border-width: 1px;
+	border-radius: 27px;
+	margin: 150px 15px 0 0;
+	text-align: center;
+}
+
+header .header-btn-buy-now {
+	background: #ffffff;
+	width: 200px;
+	border-radius: 27px;
+	margin-top: 150px;
+	color: #c62650;
+	text-align: center;
+}
+
+header p {font-weight: lighter;}
+
+header figure.computer {
+	float: left;
+	margin: 0;
+}
+
 .partners .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -113,6 +212,7 @@ footer form {
 	position: absolute;
 	z-index: 0;
 	margin: 17px 0 0 30px;
+	outline: none;
 }
 
 footer textarea {
