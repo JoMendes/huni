@@ -33,7 +33,7 @@ header.index {
 header .container {
 	width: 1170px;
 	margin: 0 auto;
-	padding: 45px 0 250px 0;
+	padding: 45px 0 55px 0;
 	overflow: hidden;
 }
 
@@ -86,6 +86,10 @@ header .header-btn-login {
 /*********************************************/
 /*************** HEADER HOME *****************/
 /*********************************************/
+
+header.index .container {
+	padding: 45px 0 250px 0;
+}
 
 header.index h1.slogan {
 	margin: 0;
