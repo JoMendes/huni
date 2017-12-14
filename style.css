@@ -31,6 +31,10 @@ body a {
 	font-size: 1.250em;
 }
 
+/*******************************************************/
+/********************** LAYOUT *************************/
+/*******************************************************/
+
 /*********************************************/
 /*************** HEADER **********************/
 /*********************************************/
@@ -46,7 +50,7 @@ header.index {
 }
 
 header .container {
-	padding: 45px 0 55px 0;
+	padding: 35px 0 100px 0;
 }
 
 header figure.logo {
@@ -68,7 +72,7 @@ header nav ul li {
 	float: left;
 	display: inline-block;
 	list-style: none;
-	margin: 0 40px 0 0;
+	margin: 0 48px 0 0;
 	padding: 0;
 }
 
@@ -92,11 +96,268 @@ header .header-btn:hover {
 }
 
 /*********************************************/
+/*************** POST-HEADER *****************/
+/*********************************************/
+
+.post-header { background-color: #f9f8fa }
+
+.post-header h1 {
+	font-size: 42px;
+	padding: 115px 0 0 0;
+	margin: 0;
+}
+
+.post-header nav ul {
+	padding: 0;
+	margin: 25px 0 0 0;
+}
+
+.post-header nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 25px 25px 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #c62560;
+}
+
+/*********************************************/
+/***************** PARTNERS ******************/
+/*********************************************/
+
+.partners { clear: both; }
+
+.partners .container {
+	padding-top: 120px;
+}
+
+.partners .container h2 {
+	width: 620px;
+	margin: 0 auto;
+	font-size: 1.375em;
+	text-align: center;
+	color: #c62650;
+}
+
+.partners .container ul {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.partners .container ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 60px 0 150px 130px;
+	padding: 0;
+}
+
+.partners .container figure {
+	margin: 0;
+	padding-top: 20px;
+}
+
+/*********************************************/
+/******************** DEMO *******************/
+/*********************************************/
+
+.demo {
+	background-color: #242f39;
+}
+
+.demo .container {
+	padding: 104px 0 100px 0;
+}
+
+.demo .container h1 {
+	margin: inherit;
+	width: 480px;
+	font-family: 'Merriweather Sans' sans-serif;
+	font-size: 2.500em;
+	color: #ffffff;
+	text-align: center;
+}
+
+.demo .container .demo-btn {
+	background: #242f39;
+	width: 230px;
+	border-radius: 27px;
+	margin: 0 auto;
+	margin-top: 75px;
+	text-align: center;
+	font-weight: lighter;
+	color: #ffffff;
+	border: solid;
+	border-width: 1px;
+}
+
+.demo .container .demo-btn:hover {
+	background: #ffffff;
+	color: #242f39;
+	border: solid;
+	border-width: 1px;
+}
+
+.demo .container .demo-btn p {
+	padding: 16px;
+	margin: 0;
+}
+
+/*********************************************/
+/****************** FOOTER *******************/
+/*********************************************/
+
+footer .container {
+	overflow: hidden;
+	padding: 105px 0 160px 0;
+}
+
+footer .form-container {
+	width: 665px;
+	height: 55px;
+	margin: 0 0 170px 160px;
+	border-radius: 27px;
+	box-shadow: 0px 0px 20px 2px #DF9BAD;
+}
+
+footer form {
+	width: 665px;
+	height: 55px;
+	margin: 0 0 170px 210px;
+	border-radius: 27px;
+	box-shadow: 0px 0px 20px 2px #DF9BAD;
+}
+
+footer input {
+	width: 230px;
+	border: 0;
+	margin: 0 0 0 615px;
+	background: #c62550;
+	font-weight: lighter;
+	border-radius: 27px;
+	height: 55px;
+	outline: none;
+	padding-left: 20px;
+	font-size: 16px;
+	box-sizing: border-box;
+	font-weight: lighter;
+	font-size: 16px;
+	color: #ffffff;
+	position: absolute;
+}
+
+footer input.type-email {
+	width: 670px;
+	border: 0;
+	margin: 0;
+	background: inherit;
+	border-radius: 27px;
+	height: 55px;
+	outline: none;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #a3a3a3;
+}
+
+footer input[type=submit] {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+footer input.type-email::placeholder {
+	color: #a3a3a3;
+}
+
+/*********************************************/
+/*************** PRE-FOOTER ******************/
+/*********************************************/
+
+footer .pre-footer {
+	background-color: #F7F7F8;
+	margin-bottom: 0;
+}
+
+footer .pre-footer figure {
+	margin: 0 15px 0 0;
+	float: left;
+}
+
+footer .pre-footer .social-footer h3 {
+	margin: 0;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1.750em;
+	font-weight: lighter;
+}
+
+footer .pre-footer .social-footer {
+	clear: both;
+	float: left;
+	margin-right: 360px;
+}
+
+footer .pre-footer .contact {
+	display: inline-block;
+	float: left;
+	margin-right: 330px;
+}
+
+footer .pre-footer .legal {
+	display: inline-block;
+	float: left;
+}
+
+footer .pre-footer nav ul {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer .pre-footer nav ul li:hover { color: #C62650; }
+
+footer .pre-footer nav .social li {
+	display: inline-block;
+	font-size: 1.250em;
+	color: #c62650;
+	margin-right: 25px;
+	line-height: 30px;
+}
+
+footer .pre-footer nav .social {
+	margin-top: 50px;
+}
+
+/*********************************************/
+/*************** POST-FOOTER *****************/
+/*********************************************/
+
+footer .post-footer {
+	background-color: #1A2530;
+	color: #FFFFFF;
+}
+
+footer .post-footer p {
+	color: #f7f7f8;
+	text-align: center;
+	margin: 0;
+	padding: 45px 0 45px 0;
+	font-size: 0.938em;
+}
+
+footer .post-footer span { color: #C62650; }
+
+/*******************************************************/
+/*********************** HOME **************************/
+/*******************************************************/
+
+/*********************************************/
 /*************** HEADER HOME *****************/
 /*********************************************/
 
 header.index .container {
-	padding: 45px 0 250px 0;
+	padding: 35px 0 250px 0;
 }
 
 header.index h1.slogan {
@@ -159,6 +420,7 @@ header figure.computer {
 	font-size: 20px;
 	font-weight: lighter;
 	color: #7f7f7f;
+	line-height: 35px;
 }
 
 .everything-you-need figure {
@@ -543,11 +805,28 @@ header figure.computer {
 	margin: -200px 0 0 135px;
 	height: 60px;
 	width: 250px;
-	background-color: black;
+	background-color: #000000;
+	border-radius: 27px;
+	border: solid 1px #000000;
+}
+
+.download .apple-btn:hover {
+	background-color: #5842dc;
+	color: #5842dc;
+	border: solid 1px #ffffff;
+}
+
+.download .apple-btn img {
+	position: absolute;
+	margin: 13px 30px;
 }
 
 .download .apple-btn p {
 	text-align: center;
+	color: #ffffff;
+	font-size: 1.250em;
+	font-weight: lighter;
+	margin: 18px -50px 18px 0;
 }
 
 .download .iphone {
@@ -561,10 +840,28 @@ header figure.computer {
 	margin: -200px 0 0 810px;
 	height: 60px;
 	width: 250px;
+	background-color: #000000;
+	border-radius: 27px;
+	border: solid 1px #000000;
+}
+
+.download .google-play-btn:hover {
+	background-color: #5842dc;
+	color: #5842dc;
+	border: solid 1px #ffffff;
+}
+
+.download .google-play-btn img {
+	position: absolute;
+	margin: 18px 40px;
 }
 
 .download .google-play-btn p {
 	text-align: center;
+	color: #ffffff;
+	font-size: 1.250em;
+	font-weight: lighter;
+	margin: 18px -40px 0 0;
 }
 
 /*********************************************/
@@ -604,213 +901,42 @@ header figure.computer {
 	width: 330px;
 }
 
-/*********************************************/
-/***************** PARTNERS ******************/
-/*********************************************/
+/*******************************************************/
+/*********************** BLOG **************************/
+/*******************************************************/
 
-.partners { clear: both; }
-
-.partners .container {
-	padding-top: 120px;
+.content .page-description {
+	width: 800px;
+	float: left;
 }
 
-.partners .container h2 {
-	width: 620px;
-	margin: 0 auto;
-	font-size: 1.375em;
-	text-align: center;
-	color: #c62650;
-}
-
-.partners .container ul {
-	margin: 0 auto;
-	padding: 0;
-}
-
-.partners .container ul li {
-	display: inline-block;
-	list-style: none;
-	margin: 60px 0 150px 130px;
-	padding: 0;
-}
-
-.partners .container figure {
-	margin: 0;
-	padding-top: 20px;
-}
-
-/*********************************************/
-/******************** DEMO *******************/
-/*********************************************/
-
-.demo {
-	background-color: #242f39;
-}
-
-.demo .container {
-	padding: 104px 0 100px 0;
-}
-
-.demo .container h1 {
-	margin: inherit;
-	width: 480px;
-	font-family: 'Merriweather Sans' sans-serif;
-	font-size: 2.500em;
-	color: #ffffff;
-	text-align: center;
-}
-
-.demo .container .demo-btn {
-	background: #242f39;
-	width: 230px;
-	border-radius: 27px;
-	margin: 0 auto;
-	margin-top: 75px;
-	text-align: center;
-	font-weight: lighter;
-	color: #ffffff;
-	border: solid;
-	border-width: 1px;
-}
-
-.demo .container .demo-btn:hover {
-	background: #ffffff;
-	color: #242f39;
-	border: solid;
-	border-width: 1px;
-}
-
-.demo .container .demo-btn p {
-	padding: 16px;
-	margin: 0;
-}
-
-/*********************************************/
-/****************** FOOTER *******************/
-/*********************************************/
-
-footer .container {
-	overflow: hidden;
-	padding: 105px 0 160px 0;
-}
-
-footer .form-container {
-	position: relative;
-	width: 665px;
-	height: 55px;
-	margin: 0 0 170px 160px;
-	background: none;
-	border-radius: 27px;
-	box-shadow: 0px 0px 20px 2px #DF9BAD;
-}
-
-footer form {
-	position: absolute;
-	z-index: 0;
-	margin: 17px 0 0 30px;
-	outline: none;
-}
-
-footer textarea {
-	width: 585px;
-	border: 0;
-	margin: 0;
-	background: inherit;
-	font-weight: lighter;
-}
-
-footer .subscribe-btn {
-	position: absolute;
-	z-index: 1;
-	background: #C62650;
-	width: 230px;
-	height: 55px;
-	border-radius: 27px;
-	margin-left: 620px;
-}
-
-footer .subscribe-btn p {
+.content .page-description h3 {
 	text-transform: uppercase;
-	text-align: center;
-	font-weight: lighter;
-	color: #ffffff;
-}
-
-/*********************************************/
-/*************** PRE-FOOTER ******************/
-/*********************************************/
-
-footer .pre-footer {
-	background-color: #F7F7F8;
-	margin-bottom: 0;
-}
-
-footer .pre-footer figure {
-	margin: 0 15px 0 0;
-	float: left;
-}
-
-footer .pre-footer .social-footer h3 {
-	margin: 0;
-	font-family: 'Merriweather Sans', sans-serif;
-	font-size: 1.750em;
-	font-weight: lighter;
-}
-
-footer .pre-footer .social-footer {
-	clear: both;
-	float: left;
-	margin-right: 360px;
-}
-
-footer .pre-footer .contact {
-	display: inline-block;
-	float: left;
-	margin-right: 330px;
-}
-
-footer .pre-footer .legal {
-	display: inline-block;
-	float: left;
-}
-
-footer .pre-footer nav ul {
-	display: inline-block;
-	font-family: 'Roboto', sans-serif;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-footer .pre-footer nav ul li:hover { color: #C62650; }
-
-footer .pre-footer nav .social li {
-	display: inline-block;
-	font-size: 1.250em;
 	color: #c62650;
-	margin-right: 25px;
-	line-height: 30px;
 }
 
-footer .pre-footer nav .social {
-	margin-top: 50px;
+.content .form-blog .type-email {
+	width: 230px;
+	border-radius: 27px;
+	padding: 20px;
+	float: right;
+	outline: none;
+	border: solid 1px #e6e4e4;
 }
 
-/*********************************************/
-/*************** POST-FOOTER *****************/
-/*********************************************/
-
-footer .post-footer {
-	background-color: #1A2530;
-	color: #FFFFFF;
+.content .form-blog input:last-child {
+	position: absolute;
+	background-image: url(assets/images/search.png);
+	background-repeat: no-repeat;
+	padding: 7px 10px 0px 10px;
+	margin: 15px 0px 0px 350px;
+	border: none;
 }
 
-footer .post-footer p {
-	color: #f7f7f8;
-	text-align: center;
-	margin: 0;
-	padding: 45px 0 45px 0;
-	font-size: 0.938em;
-}
+/*******************************************************/
+/****************** BLOG DETAILS ***********************/
+/*******************************************************/
 
-footer .post-footer span { color: #C62650; }
+/*******************************************************/
+/********************* CONTACT *************************/
+/*******************************************************/
