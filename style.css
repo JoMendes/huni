@@ -907,35 +907,274 @@ header figure.computer {
 
 .content .page-description {
 	width: 800px;
+	margin-top: 110px;
+	margin: 110px 0 60px 0;
 	float: left;
 }
 
 .content .page-description h3 {
 	text-transform: uppercase;
 	color: #c62650;
+	font-size: 22px;
 }
 
-.content .form-blog .type-email {
+.content .page-description p {
+	margin-top: 35px;
+	color: #737373;
+	font-weight: lighter;
+	line-height: 36px;
+}
+
+.content .form-blog .type-email { float: right; }
+
+.form-blog .type-email {
 	width: 230px;
 	border-radius: 27px;
+	margin-top: 148px;
 	padding: 20px;
-	float: right;
 	outline: none;
 	border: solid 1px #e6e4e4;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
-.content .form-blog input:last-child {
+.form-blog input:last-child {
 	position: absolute;
 	background-image: url(assets/images/search.png);
 	background-repeat: no-repeat;
 	padding: 7px 10px 0px 10px;
-	margin: 15px 0px 0px 350px;
+	margin: 165px 0px 0px 350px;
 	border: none;
+}
+
+.content .blog-article-container {
+	clear: both;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content .blog-article-container figure {
+	margin: 0 40px 0 0;
+	float: left;
+}
+
+.content .blog-article-container .blog-text h3 {
+	color: #c62650;
+	font-size: 22px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.content .blog-article-container .blog-text p {
+	color: #737373;
+	line-height: 36px;
+	width: 1100px;
+}
+
+.content .blog-article-container nav ul li {
+	float: left;
+	display: inline-block;
+	list-style: none;
+	margin: 0 48px 0 0;
+	padding: 0;
+}
+
+.content .blog-article-container nav .pricing-btn {
+	width: 180px;
+	border-color: #ffffff;
+	border: solid;
+	border-width: 1px;
+	border-radius: 27px;
+	text-align: center;
+	background: #bf0436;
+	color: white;
+	font-weight: lighter;
+}
+
+.content .blog-article-container nav .pricing-btn:hover {
+	background: #ffffff;
+	color: #c62650;
+	font-weight: initial;
+	width: 180px;
+}
+
+.content .blog-article-container nav:nth-child(3) {
+	color: #c62550;
+}
+
+.content .blog-article-container .social-share {
+	float: right;
+	color: #ffffff;
+	margin-bottom: 80px;
+}
+
+.content .blog-article-container .social-share ul {
+	margin: 6px;
+}
+
+.content .blog-article-container .social-share .facebook-btn {
+	background: #4267b2;
+}
+
+.content .blog-article-container .social-share span {
+	float: left;
+	margin: 14px;
+}
+
+.content .blog-article-container .social-share p {
+	float: left;
+	margin: 12px 12px 12px 0;
+	font-weight: lighter;
+}
+
+.content .blog-article-container .social-share .twitter-btn {
+	background: #1b96e0;
+}
+
+.content .page-number {
+	text-align: center;
+	clear: both;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content .page-number a {
+	color: #000000;
+}
+
+.content .page-number a:hover {
+	color: #c62650;
+}
+
+.content .page-number span {
+	margin-left: 20px;
+	font-weight: 500;
+}
+
+.content .page-number a:first-child {
+	color: #c62650;
+}
+
+.content .page-number .fa-angle-double-right {
+	color: #c62650;
+	font-weight: bolder;
+	font-size: 28px;
 }
 
 /*******************************************************/
 /****************** BLOG DETAILS ***********************/
 /*******************************************************/
+
+
+/*********************************************/
+/****************** SIDEBAR ******************/
+/*********************************************/
+
+.sidebar {
+	clear: both;
+}
+
+.sidebar-container {
+	float: right;
+	width: 230px;
+}
+
+.sidebar-container h4 {
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.sidebar-container .type-email {
+	margin: 0 0 20px 0;
+}
+
+.sidebar-container input:last-child {
+	background: #bf0436;
+	background-image: none;
+	margin: 0;
+	border-radius: 7px;
+	padding: 15px 30px;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-size: initial;
+}
+
+.sidebar-container input:[type=submit] {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.sidebar-container h4:nth-child(3) {
+	margin: 100px 0 50px 0;
+}
+
+.sidebar-container ul {
+	padding: 0;
+}
+
+.sidebar-container ul li {
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+}
+
+.sidebar-container ul li:hover {
+	color: #c62650;
+}
+
+/*********************************************/
+/*************** SOCIAL BUTTONS **************/
+/*********************************************/
+
+.content .social-share {
+	float: right;
+}
+
+.content .social-share ul {
+	list-style: none;
+	display: inline-block;
+	color: #ffffff;
+}
+
+.content .social-share .comments-nmbr {
+	float: left;
+	margin-right: 50px;
+	color: #c62650;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.content .social-share .facebook-btn {
+	float: left;
+	background: #4267b2;
+	margin-right: 15px;
+}
+
+.content .social-share .twitter-btn {
+	float: left;
+	background: #1b96e0;
+	margin-right: 30px;
+}
+
+.content .social-share span {
+	float: left;
+	margin: 14px;
+}
+
+.content .social-share p {
+	float: left;
+	margin: 12px 12px 12px 0;
+	font-weight: lighter;
+}
+
+/*********************************************/
+/*************** CONTAINER-BLOG **************/
+/*********************************************/
+
+.content .container-blog {
+	width: 930px;
+	float: left;
+}
 
 /*******************************************************/
 /********************* CONTACT *************************/
