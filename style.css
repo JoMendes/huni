@@ -1127,6 +1127,7 @@ header figure.computer {
 
 .content .social-share {
 	float: right;
+	margin-right: 70px;
 }
 
 .content .social-share ul {
@@ -1172,8 +1173,261 @@ header figure.computer {
 /*********************************************/
 
 .content .container-blog {
-	width: 930px;
+	width: 870px;
 	float: left;
+}
+
+.content .container-blog h1 {
+	margin-bottom: 80px;
+	width: 601px;
+	font-size: 29px;
+	line-height: 40px;
+}
+
+.content .container-blog p {
+	line-height: 36px;
+}
+
+.content .container-blog figure {
+	width: 100%;
+	margin: 70px 0 70px 0;
+}
+
+.content .container-blog .article-rectangle {
+	background: #c62650;
+	color: #ffffff;
+	height: 180px;
+	margin: 50px 0 50px 0;
+}
+
+.content .container-blog .article-rectangle h3 {
+	margin: 0;
+	text-align: center;
+	color: #ffffff;
+	padding: 79px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+}
+
+.content .container-blog .subtitle {
+	margin: 70px 0 40px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+}
+
+.content .container-blog .italic {
+	color: #c62650;
+	font-weight: lighter;
+	margin: 30px 0 30px 0;
+	font-style: italic;
+	font-size: 23px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*********************************************/
+/***************** COMMENTS ******************/
+/*********************************************/
+
+.comments {
+	clear: both;
+}
+
+.comments .container-comments {
+	width: 800px;
+}
+
+.comments .container-comments .author h3 {
+	padding-top: 100px;
+}
+
+.comments .container-comments .separation {
+	background: #e4e4e4;
+	height: 3px;
+	margin: 40px 0 40px 0;
+	clear: both;
+}
+
+.author-description figure {
+	float: left;
+	margin: 0 35px 0 0;
+}
+
+.author-description figure h4 {
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 25px;
+}
+
+.author-description p {
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 5px;
+}
+
+.comment { clear: both; }
+
+.comments-blog figure {
+	float: left;
+	margin: 0 35px 0 0;
+}
+
+.comments-blog figure h4 {
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 25px;
+}
+
+.comments-blog p {
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 5px;
+	margin-bottom: 40px;
+}
+
+.comments-blog .date {
+	background: #c62650;
+	color: #ffffff;
+	width: 145px;
+	float: left;
+	text-align: center;
+}
+
+.comments-blog .date p {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+.comments-blog .reply {
+	background: #e4e4e4;
+	color: #ffffff;
+	width: 90px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.comments-blog .reply:hover {
+	background: #c62650;
+}
+
+.comments-blog .reply p:hover {
+	color: #ffffff;
+	font-weight: lighter;
+}
+
+.comments-blog .reply p {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #696969;
+}
+
+ .separation-2 {
+	width: 660px;
+	float: right;
+}
+
+.answer {
+	width: 740px;
+	float: right;
+}
+
+.comments-blog .answer-text {
+	margin-top: 0;
+}
+
+/*********************************************/
+/*************** LEAVE A REPLY ***************/
+/*********************************************/
+
+.leave-reply {
+	clear: both;
+}
+
+.leave-reply h3 {
+	padding-top: 80px;
+	margin: 0;
+}
+
+.leave-reply form {
+	width: 805px;
+}
+
+.leave-reply form .user-comment {
+	width: 770px;
+	margin: 30px 0 30px 0;
+}
+
+.leave-reply .user-comment[type=text] {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #8d8d8d;
+	vertical-align: bottom;
+	padding: 30px 0 170px 30px;
+}
+
+.leave-reply .user-comment::placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #8d8d8d;
+	vertical-align: bottom;
+}
+
+.leave-reply .user-name {
+	float: left;
+	width: 350px;
+	height: 50px;
+}
+
+.leave-reply .user-name[type=text] {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #8d8d8d;
+	vertical-align: bottom;
+	padding: 0 0 0 30px;
+}
+
+.leave-reply .user-name::placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #8d8d8d;
+	vertical-align: bottom;
+}
+
+.leave-reply .user-email {
+	float: right;
+	width: 350px;
+	height: 50px;
+}
+
+.leave-reply .user-email[type=text] {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #8d8d8d;
+	vertical-align: bottom;
+	padding: 0 0 0 30px;
+}
+
+.leave-reply .user-email::placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #8d8d8d;
+	vertical-align: bottom;
+}
+
+.leave-reply input[type=submit] {
+	float: right;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 18px;
+	width: 200px;
+	margin-top: 40px;
+	border: none;
+	background: #c62650;
+	padding: 15px 0 15px 0;
+	color: #ffffff;
 }
 
 /*******************************************************/
